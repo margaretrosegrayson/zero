@@ -31,25 +31,22 @@
 <!-- Navigation -->
     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
         <li class="nav-item">
-          <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true" href="index.html">Shop</a>
+          <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Shop</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" id="pills-list-tab" data-toggle="pill" href="#pills-list" role="tab" aria-controls="pills-list" aria-selected="false" href="list.html">List</a>
+          <a class="nav-link" id="pills-list-tab" data-toggle="pill" href="#pills-list" role="tab" aria-controls="pills-list" aria-selected="false">List</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" id="pills-recipe-tab" data-toggle="pill" href="#pills-recipe" role="tab" aria-controls="pills-recipe" aria-selected="false" href="recipes.html">Recipes</a>
+          <a class="nav-link" id="pills-recipe-tab" data-toggle="pill" href="#pills-recipe" role="tab" aria-controls="pills-recipe" aria-selected="false">Recipes</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false" href="account.html">Account</a>
+            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Account</a>
           </li>
       </ul>
-      <div class="tab-content" id="pills-tabContent">
-        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"><h1>Shopping</h1></div>
-        <div class="tab-pane fade" id="pills-list" role="tabpanel" aria-labelledby="pills-list-tab"><h1>Grocery List</h1></div>
-        <div class="tab-pane fade" id="pills-recipe" role="tabpanel" aria-labelledby="pills-recipe-tab"><h1>Recipes</h1></div>
-        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"><h1>Your Account</h1></div>
-    </div>
-<!-- Cards -->
+<!-- Home -->
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+    <h1>Shopping</h1>
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Vegetable Bundle</h5>
@@ -77,6 +74,70 @@
     <hr>
     <h3><a href="#">Shop by Category</a></h3>
   </div>
+<!-- Shooping List-->
+  <div class="tab-pane fade" id="pills-list" role="tabpanel" aria-labelledby="pills-list-tab">
+    <h1>Grocery List</h1>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <div class="input-group-text">
+          <input type="checkbox" aria-label="Checkbox for following text input">
+        </div>
+      </div>
+      <input type="text" class="form-control" aria-label="Text input with checkbox">
+    </div>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <div class="input-group-text">
+          <input type="checkbox" aria-label="Checkbox for following text input">
+        </div>
+      </div>
+      <input type="text" class="form-control" aria-label="Text input with checkbox">
+    </div>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <div class="input-group-text">
+          <input type="checkbox" aria-label="Checkbox for following text input">
+        </div>
+      </div>
+      <input type="text" class="form-control" aria-label="Text input with checkbox">
+    </div>
+  </div>
+  <div class="tab-pane fade" id="pills-recipe" role="tabpanel" aria-labelledby="pills-recipe-tab">
+    <h1>Recipes</h1>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Calico Pasta Dinner</h5>
+        <p class="card-text">Add a splash of color to your table with our Calico Pasta Salad recipe!</p>
+        <p class="card-text"><small class="text-muted">Serves 4 | Total Prep Time: 1.5 hours</small></p>
+      </div>
+      <img class="card-img-bottom" src="images/pasta.jpg" alt="Card image cap">
+    </div><br>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Pot Roast</h5>
+        <p class="card-text">Classic Pot Roast is comfort food at it's best, made with potatoes and carrots, slow roasted in the oven is the perfect weekend dinner ready in 3 hours.</p>
+        <p class="card-text"><small class="text-muted">Serves 8 | Total Prep Time: 3.25 hours</small></p>
+      </div>
+      <img class="card-img-bottom" src="images/pot-roast.jpg" alt="Card image cap">
+    </div><br>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Honey Baked Ham</h5>
+        <p class="card-text">This honey glazed ham is a spiral cut ham, coated in honey and spices, then baked to golden brown perfection.</p>
+        <p class="card-text"><small class="text-muted">Serves 12 | Total Prep Time: 2.75 hours</small></p>
+      </div>
+      <img class="card-img-bottom" src="images/ham.jpg" alt="Card image cap">
+    </div>
+  </div>
+  </div>
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+    <h1>Your Account</h1>
+    
+  </div>
+</div>
+</div>
+</div>
+</div>
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
