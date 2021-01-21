@@ -1,5 +1,8 @@
-.nav ul{
-    position: fixed;
+.container {
+    position: relative;
+}
+
+.nav ul {
+    position: absolute;
     bottom: 0;
-    width: 100%; 
 }
