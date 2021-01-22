@@ -1,8 +1,7 @@
-.container {
-    position: relative;
+.nav ul {
+    padding-bottom: 20px;
 }
 
-.nav ul {
-    position: absolute;
-    bottom: 0;
+.heading h3 {
+    padding-top: 20px !important;
 }
