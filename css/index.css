@@ -5,3 +5,11 @@
 .heading h3 {
     padding-top: 20px !important;
 }
+
+.container {
+    text-align: center;
+}
+
+.bundle li{
+    list-style-type: none;
+}
